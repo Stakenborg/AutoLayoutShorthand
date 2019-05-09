@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "AutoLayoutShorthand"
   s.version      = "1.0.1"
-  s.summary      = "A short description of AutoLayoutShorthand."
+  s.summary      = "Alternative system for creating and adding Cocoa Auto Layout constraints"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                   Fixes for Apple's crappy autolayout
                    DESC
 
-  s.homepage     = "http://EXAMPLE/AutoLayoutShorthand"
+  s.homepage     = "https://github.com/rentzsch/AutoLayoutShorthand"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Stakenborg" => "b.stakenborg@gmail.com" }
+  s.author             = { "Jonathan 'Wolf' Rentzsch" => "" }
   # Or just: s.author    = "Stakenborg"
   # s.authors            = { "Stakenborg" => "b.stakenborg@gmail.com" }
   # s.social_media_url   = "http://twitter.com/Stakenborg"
@@ -79,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Stakenborg/AutoLayoutShorthand", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/Stakenborg/AutoLayoutShorthand.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

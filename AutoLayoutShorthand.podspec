@@ -11,8 +11,7 @@
     "Jonathan 'Wolf' Rentzsch": ""
   },
   "source": {
-    "git": "https://github.com/rentzsch/AutoLayoutShorthand.git",
-    "tag": "semver-1.0"
+    "git": "https://github.com/Stakenborg/AutoLayoutShorthand.git",
   },
   "source_files": [
     "Classes",

@@ -17,6 +17,8 @@
 
 //-----------------------------------------------------------------------------------------
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface ALSView (AutoLayoutShorthand)
 - (id)als_left;
 - (id)als_right;
@@ -55,3 +57,6 @@ extern NSString * const als_priority;
 - (void)als_activateConstraints;
 - (void)als_deactivateConstraints;
 @end
+
+NS_ASSUME_NONNULL_END
+
